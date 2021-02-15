@@ -5,6 +5,12 @@ mute
 
 Simple tool that allows you to toggle mute your audio and microphone with ease. It uses pulseaudio's default sink and source.
 
+## Building
+
+Pulseaudio must be installed and running.
+
+Run `make` and move the resulting binary, `mute`, into a directory that belongs to your PATH.
+
 ## Usage
 
 ```
